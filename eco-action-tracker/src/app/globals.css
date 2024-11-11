@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.energy-bolt {
+  width: 150px;
+  height: 250px;
+  background: linear-gradient(
+    135deg,
+    #fbbf24,
+    #f97316
+  ); /* Gradient for a fiery effect */
+  clip-path: polygon(
+    50% 0%,
+    60% 20%,
+    80% 20%,
+    65% 40%,
+    75% 40%,
+    50% 100%,
+    45% 60%,
+    35% 60%,
+    55% 40%,
+    40% 40%
+  ); /* Lightning bolt shape */
+  filter: drop-shadow(0 0 10px #60a5fa) drop-shadow(0 0 20px #60a5fa);
+  animation: energyPulse 3s ease-in-out infinite; /* Apply the pulse animation */
+  position: absolute;
+  cursor: move;
+}
+
+.energy-bolt:hover {
+  filter: drop-shadow(0 0 30px #60a5fa) drop-shadow(0 0 60px #60a5fa); /* Enhanced glow on hover */
+}
+
+@keyframes energyPulse {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 10px #60a5fa) drop-shadow(0 0 20px #60a5fa);
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 20px #60a5fa) drop-shadow(0 0 40px #60a5fa)
+      drop-shadow(0 0 60px #60a5fa);
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+}

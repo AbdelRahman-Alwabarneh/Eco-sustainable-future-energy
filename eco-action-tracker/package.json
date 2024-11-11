@@ -1,0 +1,49 @@
+{
+  "name": "eco-action-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.1.10",
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/postprocessing": "^2.16.3",
+    "html5-qrcode": "^2.3.8",
+    "js-cookie": "^3.0.5",
+    "jsqr": "^1.4.0",
+    "next": "^14.0.0",
+    "next-auth": "^4.24.8",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-qr-code": "^2.0.15",
+    "react-qr-scanner": "^1.0.0-alpha.11",
+    "react-toastify": "^10.0.5",
+    "recharts": "^2.13.0",
+    "sweetalert2": "^11.14.2",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@types/next-auth": "^3.15.0",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "framer-motion": "^11.11.8",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.451.0",
+    "mongoose": "^8.7.1",
+    "next": "^14.0.0",
+    "postcss": "^8.4.47",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.3.0",
+    "recharts": "^2.13.0",
+    "tailwindcss": "^3.4.13"
+  }
+}
